@@ -4,9 +4,14 @@ Repeatcmds is a shell script that enables you to execute multiple commands every
 
 ## Installation
 
+Here is an example of installing this script.
+
 ```bash
-wget https://github.com/SausageCats/repeatcmds/blob/master/repeatcmds
+wget -O repeatcmds https://raw.githubusercontent.com/SausageCats/repeatcmds/master/repeatcmds.sh
 chmod +x repeatcmds
+mkdir ~/bin
+mv repeatcmds ~/bin
+export PATH=$PATH:~/bin
 ```
 
 ## Usage
